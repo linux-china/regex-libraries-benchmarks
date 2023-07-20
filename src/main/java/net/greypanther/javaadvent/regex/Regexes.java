@@ -5,7 +5,6 @@ import java.util.List;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableList;
 
-import net.greypanther.javaadvent.regex.factories.ApacheXerxesRegexFactory;
 import net.greypanther.javaadvent.regex.factories.ComBasistechTclRegexFactory;
 import net.greypanther.javaadvent.regex.factories.ComKarneimRegexFactory;
 import net.greypanther.javaadvent.regex.factories.ComStevesoftPatRegexFactory;
@@ -41,5 +40,5 @@ final class Regexes {
     final static List<RegexFactory> FACTORIES = ImmutableList.of(new JavaUtilPatternRegexFactory(),
             new DkBricsAutomatonRegexFactory(), new OrgApacheRegexpRegexFactory(), new ComStevesoftPatRegexFactory(),
             new JRegexFactory(), new KmyRegexUtilRegexFactory(), new OroRegexFactory(), new GnuRegexpReRegexFactory(),
-            new ComKarneimRegexFactory(), new ApacheXerxesRegexFactory(), new ComBasistechTclRegexFactory());
+            new ComKarneimRegexFactory(), new ComBasistechTclRegexFactory());
 }
